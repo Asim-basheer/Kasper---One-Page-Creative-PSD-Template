@@ -21,5 +21,5 @@ window.onscroll = function () {
 };
 
 function selector(element) {
-  document.querySelector(element);
+  return document.querySelector(element);
 }
