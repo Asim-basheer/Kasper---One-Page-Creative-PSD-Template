@@ -1,9 +1,15 @@
-let burgurMenu = document.querySelector(".bar");
-let changeColor = document.querySelector(".change-color");
-let links = document.querySelector(".links");
-let lis = document.querySelectorAll(".links li a");
+const burgurMenu = selector(".bar"),
+  changeColor = selector(".change-color"),
+  links = selector(".links"),
+  lis = document.querySelectorAll(".links li a");
+
 burgurMenu.onclick = function () {
   links.classList.toggle("active");
+  lis.forEach((link) => {
+    link.addEventListener("click", function () {
+      links.classList.remove("active");
+    });
+  });
 };
 
 window.onscroll = function () {
@@ -13,3 +19,7 @@ window.onscroll = function () {
     changeColor.classList.remove("change");
   }
 };
+
+function selector(element) {
+  document.querySelector(element);
+}
