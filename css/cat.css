@@ -1,13 +1,11 @@
 /* Start Variables */
 :root {
-  --main-color: #555;
+  --main-color: #19c8fa;
   --transparent-color: rgb(15 116 143 / 70%);
   --section-padding: 100px;
 }
 /* End Variables */
 /* start services */
-.main-heading {
-}
 .main-heading .services {
   text-align: center;
 }
@@ -125,8 +123,6 @@ header {
     width: 60px;
   }
   .change-color.change .container .links li a {
-  }
-  .change-color.change .container .links li a {
     height: 60px;
   }
   .change-color.change .container .links li a:hover {
@@ -182,8 +178,6 @@ header .container .links {
   header .container .links.active {
     top: 100%;
   }
-}
-header .links li {
 }
 header .links li a {
   color: #fff;
@@ -425,9 +419,6 @@ header .container .bar {
   margin-right: 20px;
   position: relative;
   top: 1px;
-}
-
-.design .image {
 }
 
 .design .image img {
@@ -851,9 +842,6 @@ header .container .bar {
   background-color: var(--main-color);
 }
 
-.skils {
-}
-
 .our-skills .skills .prog-holder {
   margin-bottom: 40px;
 }
@@ -1000,8 +988,6 @@ header .container .bar {
   border-top: 1px solid var(--main-color);
 }
 
-.pricing .box .plan1 span {
-}
 .pricing .box .plan1 h3 {
   padding: 20px;
   font-size: 50px;
@@ -1057,8 +1043,6 @@ header .container .bar {
   box-shadow: 0px 0px 20px 9px #9e9e9e;
 }
 
-.pricing .contact-us {
-}
 .pricing .contact-us p {
   font-size: 20px;
   text-align: center;
